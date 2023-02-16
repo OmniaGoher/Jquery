@@ -2,7 +2,6 @@ let imageIndex = 1;
 var startInterval
 function showSlides(n) {
     let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
     if (n > slides.length) { 
         imageIndex = 1 
     }
